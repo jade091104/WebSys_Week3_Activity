@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(247, 247, 247);
+    color: rgb(50, 50, 50);
+}
+
+nav {
+    background: #ca0000;
+    padding: 15px 0;
+    text-align: center;
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+}
+
+.nav-links li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.nav-links a:hover {
+    color: #f4a261;
+}
+
+.profile-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Ensures spacing between text and image */
+    padding: 40px;
+    max-width: 900px;
+    margin: auto;
+}
+
+.profile-img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+    margin-left: 20px;
+    order: 2; /* Moves the image to the right */
+    float: right; 
+    margin: 10px; 
+    width: 300px; 
+    height: auto; 
+
+}
+
+.profile-info {
+    max-width: 600px;
+    order: 1; /* Moves text to the left */
+}
+
+
+.profile-info h1 {
+    font-size: 28px;
+    color: #222;
+}
+
+.profile-info .subtitle {
+    font-size: 18px;
+    color: gray;
+}
+
+section {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+
+h2 {
+    color: #333;
+    border-bottom: 2px solid #444;
+    padding-bottom: 5px;
+}
+
+h3 {
+    margin-top: 15px;
+}
+
+.hobbies-list, .skills-list {
+    list-style: none;
+    padding: 0;
+}
+
+.hobbies-list li, .skills-list li {
+    background: #eee;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    background: #ca0000;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+}
