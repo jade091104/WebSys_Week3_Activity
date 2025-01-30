@@ -1,0 +1,44 @@
+.profile-img {
+    float: right; 
+    margin: 10px; 
+    width: 300px; 
+    height: auto; 
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 600px;
+    background-color: rgb(247, 247, 247);
+}
+
+h1 {
+    font-size: 80px;
+    text-align: left;
+    color: rgb(0, 0, 0);
+    margin: -10px;
+}
+
+p {
+    font-weight: lighter;
+    font-style: Arial;
+    color: rgb(82, 82, 82);
+}
+
+hr {
+    border: none;
+    height: 2px; 
+    background-color: black; 
+}
+
+header {
+    display: flex;
+    align-items: center;
+}
+
+
+h2 {
+    margin: -10px;
+    margin-right: 150px;
+}
